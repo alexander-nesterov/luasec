@@ -21,7 +21,7 @@ MACOSX_VERSION=10.11
 #----------------------
 # Do not edit this part
 
-.PHONY: all clean install none linux bsd macosx
+.PHONY: all clean install none solaris linux bsd macosx
 
 all: none
 
