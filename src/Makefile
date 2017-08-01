@@ -31,7 +31,7 @@ LD      ?= $(MYENV) cc
 CFLAGS  += $(MYCFLAGS)
 LDFLAGS += $(MYLDFLAGS)
 
-.PHONY: all clean install none linux bsd macosx luasocket
+.PHONY: all clean install none solaris linux bsd macosx luasocket
 
 all:
 
