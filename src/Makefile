@@ -12,6 +12,9 @@ LIBS=-lssl -lcrypto -lluasocket
 
 WARN=-Wall -pedantic
 
+SOL_CFLAGS=-O2 -fPIC $(WARN) $(INCDIR) $(DEFS)
+SOL_LDFLAGS=-O -fPIC -shared $(LIBDIR)
+
 BSD_CFLAGS=-O2 -fPIC $(WARN) $(INCDIR) $(DEFS)
 BSD_LDFLAGS=-O -fPIC -shared $(LIBDIR)
 
