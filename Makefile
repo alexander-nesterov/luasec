@@ -1,6 +1,6 @@
 # Inform the location to install the modules
-LUAPATH  ?= /usr/share/lua/5.1
-LUACPATH ?= /usr/lib/lua/5.1
+LUAPATH  ?= /usr/share/lua/5.3
+LUACPATH ?= /usr/lib/lua/5.3
 
 # Compile with build-in LuaSocket's help files.
 # Comment this lines if you will link with non-internal LuaSocket's help files
@@ -33,6 +33,12 @@ none:
 
 install:
 	@cd src && $(MAKE) LUACPATH="$(LUACPATH)" LUAPATH="$(LUAPATH)" install
+	
+solaris:
+	@echo "---------------------"
+	@echo "** Build for Solaris **"
+	@echo "---------------------"
+	@cd src && $(MAKE) INCDIR="$(INCDIR)" LIBDIR="$(LIBDIR)" DEFS="$(DEFS)" EXTRA="$(EXTRA)" $@
 
 linux:
 	@echo "---------------------"
