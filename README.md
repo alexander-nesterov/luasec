@@ -1,6 +1,6 @@
 LuaSec 0.6
 ==========
-forked from https://github.com/alexander-nesterov?tab=repositories
+forked from https://github.com/brunoos/luasec
 
 documentation: https://github.com/brunoos/luasec/wiki
 
