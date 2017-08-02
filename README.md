@@ -2,6 +2,8 @@ LuaSec 0.6
 ==========
 forked from https://github.com/alexander-nesterov?tab=repositories
 
+documentation: https://github.com/brunoos/luasec/wiki
+
 to build you need to install gcc 4 or higher
 
 ```bash
